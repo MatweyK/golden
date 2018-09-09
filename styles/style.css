@@ -120,7 +120,7 @@
 .button {
 	display: block;
 	background-color: #d0ae12;
-	padding: 1% 7%;
+	padding: 2% 8%;
 	color: #ffffff;
 	border-radius: 5px;
 	font-size: 18px;
@@ -325,4 +325,119 @@ flex-wrap: wrap;
 	padding-top: 8%;
 	padding-bottom:  6%;
 	
+}
+
+.team__heading {
+	font-family:  "Monserat bold", sans-serif;
+	font-size: 40px;
+	margin: 0;
+
+}
+
+.team__info {
+	color: #777777;
+	margin: 0;
+	margin-bottom: 7%;
+}
+
+.team__members {
+	display: flex;
+	justify-content: space-between;
+}
+
+.team-member {
+	width: 23%;
+}
+
+.team-member img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.team-member__heading {
+	font-family:  "Monserat bold", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	margin-top: 2%;
+}
+
+.team-member-info {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #777777;
+}
+
+.contact-wrapper {
+	background-color: #222222;
+}
+
+.contact {
+	width: 67%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 8%;
+	padding-bottom:  6%;
+	color: #ffffff;
+	
+}
+
+.contact__heading {
+	font-family:  "Monserat bold", sans-serif;
+	font-size: 40px;
+	margin: 0;
+	margin-bottom: 3%;
+	
+}
+
+.contact__info {
+	font-family: 'DroidSerif-Regular';
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 5%;
+	
+}
+
+.form {
+	margin-bottom: 5%;
+}
+
+.form__name {
+	padding: 1% 4%;
+	margin: 1% 1%;
+}
+
+.form__email {
+	padding: 1% 4%;
+	margin: 1% 1%;
+}
+
+.form__subject {
+	padding: 1% 4%;
+	margin: 1% 1%;
+}
+
+.form__message {
+	
+	padding: 1% 4%;
+	margin: 1% 1%;
+}
+
+.button-send {
+	margin-top: 5%;
+}
+
+.page-footer {
+	width: 67%;
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-bottom:  1%;
+	
+	 font-family: 'DroidSerif-Regular';
+	 display: flex;
+}
+
+.social__list {
+	list-style: none;
+	display: flex;
+	margin: 0;
 }
