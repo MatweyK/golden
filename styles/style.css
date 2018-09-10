@@ -44,6 +44,7 @@ body {
 	margin: 0 auto;
 	padding-top: 3%;
 	padding-bottom: 11%;
+	background-attachment: fixed;
 }
 
 .main-nav {
@@ -545,6 +546,7 @@ flex-wrap: wrap;
 
 .page-header__welcome {
 	font-size: 30px;
+	margin-top: 5%;
 		
 }
 
