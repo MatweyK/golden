@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+body {
+	margin: 0;
+}
+
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
@@ -30,7 +34,7 @@
 .page-header {
 	
 	background-color: #000000;
-	background-image: url("../img/Background Image.jpg");
+	background-image: url("../img/Background Image 2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -73,7 +77,7 @@
 }
 
 .site-list__item {
-	padding-right: 7%;
+	padding-right: 5%;
 	
 }
 
@@ -122,7 +126,7 @@
 	background-color: #d0ae12;
 	padding: 2% 8%;
 	color: #ffffff;
-	border-radius: 5px;
+	cursor:pointer;
 	font-size: 18px;
 	
 
@@ -200,6 +204,9 @@
 	
 }
 
+.portfolio a {
+	text-decoration: none;
+}
 
 
 .portfolio__heading {
@@ -240,6 +247,7 @@ flex-wrap: wrap;
 	font-size: 18px;
 	font-family:  "Monserat bold", sans-serif;
 	margin-bottom: 1%;
+	color: #000000;
 	
 }
 
@@ -406,6 +414,9 @@ flex-wrap: wrap;
 
 .contact-wrapper {
 	background-color: #222222;
+	background-image: url(../img/123.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .contact {
@@ -439,24 +450,25 @@ flex-wrap: wrap;
 }
 
 .form__name {
-	padding: 1% 4%;
-	margin: 1% 1%;
+	padding: 2% 5%;
+	margin: 1%;
 }
 
 .form__email {
-	padding: 1% 4%;
-	margin: 1% 1%;
+	padding: 2% 5%;
+	margin: 1%;
 }
 
 .form__subject {
-	padding: 1% 4%;
-	margin: 1% 1%;
+	padding: 2% 5%;
+	margin: 1%;
 }
 
 .form__message {
 	
-	padding: 1% 4%;
-	margin: 1% 1%;
+	padding: 2% 5%;
+	margin: 1%;
+	margin-bottom: 5%;
 }
 
 .button-send {
@@ -471,6 +483,7 @@ flex-wrap: wrap;
 	
 	 font-family: 'DroidSerif-Regular';
 	 display: flex;
+	 align-items: center;
 }
 
 .social__list {
@@ -478,6 +491,17 @@ flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
 	margin: 0;
+}
+
+.page-footer__copyright {
+	width: 35%;
+	color: #555555;
+	font-family:  "Monserat bold", sans-serif;
+
+}
+
+.page-footer__social {
+	width: 35%;
 }
 
 .social__item {
@@ -525,7 +549,7 @@ flex-wrap: wrap;
 }
 
 .page-header__meet {
-	font-size: 50px;
+	font-size: 40px;
 	
 }
 .page-header__button {
@@ -540,6 +564,10 @@ flex-wrap: wrap;
 	display: block;
 }
 
+.services__heading {
+	font-size: 30px;
+}
+
 .services-item {
 	width: 100%;
 }
@@ -552,12 +580,18 @@ flex-wrap: wrap;
 	display: block;
 
 }
+.portfolio__heading {
+	font-size: 30px;
+}
 
 .portfolio-work {
 	width: 100%;
 	
 }
 
+.about__heading {
+	font-size: 30px;
+}
 
 .about__item {
 	margin-bottom: 3%;
@@ -580,7 +614,9 @@ flex-wrap: wrap;
 }
 
 
-
+.team__heading {
+	font-size: 30px;
+}
 
 .team__members {
 	display: block;
@@ -596,5 +632,9 @@ flex-wrap: wrap;
 	width: 80%;
 	border-radius: 50%;
 
+}
+
+.contact__heading {
+	font-size: 30px;
 }
 
