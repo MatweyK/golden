@@ -29,7 +29,7 @@
 
 .page-header {
 	
-	background-color: #343335;
+	background-color: #000000;
 	background-image: url("../img/Background Image.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -130,7 +130,7 @@
 
 .page-main {
 	
-	padding-top: 8%;
+	padding-top: 5%;
 }
 .services {
 	width: 67%;
@@ -200,9 +200,11 @@
 	
 }
 
+
+
 .portfolio__heading {
 	margin: 0 auto;
-	padding-top: 9%;
+	padding-top: 8%;
 	margin-bottom: 3%;
 	font-size: 40px;
 	font-family:  "Monserat bold", sans-serif;
@@ -253,8 +255,8 @@ flex-wrap: wrap;
 	width: 67%;
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 8%;
-	margin-bottom:  6%;
+	margin-top: 5%;
+	margin-bottom:  5%;
 	
 }
 
@@ -322,8 +324,8 @@ flex-wrap: wrap;
 	width: 67%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 8%;
-	padding-bottom:  6%;
+	padding-top: 5%;
+	padding-bottom:  5%;
 	
 }
 
@@ -352,6 +354,41 @@ flex-wrap: wrap;
 .team-member img {
 	width: 80%;
 	border-radius: 50%;
+
+}
+
+.team-member__contacts
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.team-member__twitter {
+	display: block;
+	background-image: url(../img/iconmonstr-twitter-5.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 1%;
+}
+
+.team-member__facebook {
+	display: block;
+	background-image: url(../img/iconmonstr-facebook-5.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 1%;
+}
+
+.team-member__pinterest {
+	display: block;
+	background-image: url(../img/iconmonstr-pinterest-4.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 1%;
 }
 
 .team-member__heading {
@@ -375,8 +412,8 @@ flex-wrap: wrap;
 	width: 67%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 8%;
-	padding-bottom:  6%;
+	padding-top: 5%;
+	padding-bottom:  5%;
 	color: #ffffff;
 	
 }
@@ -429,7 +466,7 @@ flex-wrap: wrap;
 .page-footer {
 	width: 67%;
 	margin: 0 auto;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom:  1%;
 	
 	 font-family: 'DroidSerif-Regular';
@@ -439,5 +476,125 @@ flex-wrap: wrap;
 .social__list {
 	list-style: none;
 	display: flex;
+	justify-content: center;
 	margin: 0;
 }
+
+.social__item {
+	margin: 2%;
+}
+
+
+.social__link--twitter {
+	display: block;
+	background-image: url(../img/iconmonstr-twitter-5.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 2%;
+}
+
+.social__link--facebook {
+	display: block;
+	background-image: url(../img/iconmonstr-facebook-5.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 2%;
+}
+
+.social__link--pinterest {
+	display: block;
+	background-image: url(../img/iconmonstr-pinterest-4.svg);
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	margin: 2%;
+}
+
+@media (max-width: 768px) {
+	
+.main-nav {
+	display: none;
+	
+}
+
+.page-header__welcome {
+	font-size: 30px;
+		
+}
+
+.page-header__meet {
+	font-size: 50px;
+	
+}
+.page-header__button {
+	margin: 0 auto;
+}
+
+.page-main {
+	padding-top: 8%;
+}
+
+.services__wrapper {
+	display: block;
+}
+
+.services-item {
+	width: 100%;
+}
+
+.portfolio {
+	padding-bottom: 5%;
+}
+
+.portfolio-work-wrapper {
+	display: block;
+
+}
+
+.portfolio-work {
+	width: 100%;
+	
+}
+
+
+.about__item {
+	margin-bottom: 3%;
+}
+
+.about__item--left {
+	display: block;
+}
+
+.about__item--right {
+	display: block;
+}
+
+.about-achievement__text {
+	width: 100%;
+}
+
+.about-achievement__image {
+	width: 100%;
+}
+
+
+
+
+.team__members {
+	display: block;
+	
+}
+
+.team-member {
+	width: 100%;
+	margin: 5%;
+}
+
+.team-member img {
+	width: 80%;
+	border-radius: 50%;
+
+}
+
