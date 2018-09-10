@@ -37,6 +37,7 @@ body {
 	background-image: url("../img/Background Image 2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 .page-header__wrapper {
@@ -44,7 +45,7 @@ body {
 	margin: 0 auto;
 	padding-top: 3%;
 	padding-bottom: 11%;
-	background-attachment: fixed;
+
 }
 
 .main-nav {
