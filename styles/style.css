@@ -83,10 +83,21 @@ a {
 }
 
 .site-list__item {
+	padding: 3%;
 	padding-right: 5%;
 	
 }
 
+.site-list__item:hover {
+	background-color: white;
+	color: black;
+	
+}
+.site-list__item:hover a {
+	
+	color: black;
+	
+}
 
 .site-list__item a {
 	color: #ffffff;
@@ -95,7 +106,7 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 41px;
-	padding: 0;
+	
 	
 	text-decoration: none;
 	text-transform: uppercase;
@@ -126,6 +137,11 @@ a {
 .page-header__button {
 	
 	margin: 0 auto;
+}
+
+.page-header__button:hover {
+	background-color: white;
+	color:  #d0ae12;
 }
 .button {
 	display: block;
@@ -212,6 +228,13 @@ a {
 
 .portfolio a {
 	text-decoration: none;
+}
+
+.portfolio-work:hover {
+	background-color: #787d87;
+}
+.portfolio-work:hover img {
+	opacity: 0.5;
 }
 
 
